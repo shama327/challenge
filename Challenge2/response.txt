@@ -1,0 +1,46 @@
+{
+  "computerName": "azadmin",
+  "osName": "ubuntu",
+  "osVersion": "20.04",
+  "vmAgent": {
+    "vmAgentVersion": "2.8.0.11",
+    "statuses": [
+      {
+        "code": "ProvisioningState/succeeded",
+        "level": "Info",
+        "displayStatus": "Ready",
+        "message": "Guest Agent is running",
+        "time": "2022-12-05T04:56:40+00:00"
+      }
+    ],
+    "extensionHandlers": []
+  },
+  "disks": [
+    {
+      "name": "azadmin_OsDisk_1_f0eb239d73cd4a91bfea729da0d46db2",
+      "statuses": [
+        {
+          "code": "ProvisioningState/succeeded",
+          "level": "Info",
+          "displayStatus": "Provisioning succeeded",
+          "time": "2022-12-03T04:57:58.5601256+00:00"
+        }
+      ]
+    }
+  ],
+  "bootDiagnostics": {},
+  "hyperVGeneration": "V2",
+  "statuses": [
+    {
+      "code": "ProvisioningState/succeeded",
+      "level": "Info",
+      "displayStatus": "Provisioning succeeded",
+      "time": "2022-12-03T04:58:24.9986568+00:00"
+    },
+    {
+      "code": "PowerState/running",
+      "level": "Info",
+      "displayStatus": "VM running"
+    }
+  ]
+}
